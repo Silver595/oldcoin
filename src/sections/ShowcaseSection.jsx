@@ -16,7 +16,7 @@ const AppShowcase = () => {
     gsap.fromTo(
       sectionRef.current,
       { opacity: 0 },
-      { opacity: 1, duration: 1.5 }
+      { opacity: 1, duration: 1.5 },
     );
 
     // Animations for each app showcase
@@ -38,7 +38,7 @@ const AppShowcase = () => {
             trigger: card,
             start: "top bottom-=100",
           },
-        }
+        },
       );
     });
   }, []);
@@ -54,7 +54,7 @@ const AppShowcase = () => {
             <div className="text-content">
               <h2>
                 On-Demand Rides Made Simple with a Powerful, User-Friendly App
-                called Ryde
+                called RideWithUs
               </h2>
               <p className="text-white-50 md:text-xl">
                 An app built with React Native, Expo, & TailwindCSS for a fast,

@@ -30,9 +30,8 @@ const words = [
 
 const counterItems = [
   { value: 1, suffix: "+", label: "Years of Experience" },
-  { value: 200, suffix: "+", label: "Satisfied Clients" },
-  { value: 108, suffix: "+", label: "Completed Projects" },
-  { value: 90, suffix: "%", label: "Client Retention Rate" },
+
+  { value: 3, suffix: "+", label: "Completed Projects" },
 ];
 
 const logoIconsList = [
@@ -84,7 +83,7 @@ const abilities = [
   },
   {
     imgPath: "/images/time.png",
-    title: "On-Time Delivery",
+    title: "",
     desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
   },
 ];

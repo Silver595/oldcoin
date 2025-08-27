@@ -51,7 +51,9 @@ const Hero = () => {
             </div>
 
             <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-              Hi, I’m Sammed, a developer || Thinker || GymBoy.
+              Hi, I’m Pranav, &#9775; <b>developer</b> &#9775; <b>Thinker</b>{" "}
+              &#9775;
+              <b> Designer</b>.
             </p>
 
             <Button
